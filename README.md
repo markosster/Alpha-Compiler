@@ -1,11 +1,15 @@
 # Alpha Compiler
 
+Construction of a compiler and a virtual machine for the **Alpha** language. This project was done for the purposes of a university course.
+
 ## Usage
 
 ```cmd
 make
-./alpha [testfile] (run compiler)
-./alphavm binary.abc (run avm)
+# run compiler
+./alpha [testfile]
+# run alpha's virtual machine
+./alphavm binary.abc
 ```
 
 ## Notes
